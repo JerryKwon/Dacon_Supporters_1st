@@ -1,24 +1,25 @@
-# 데이콘 서포터즈 1기
-
-## :calendar: 진행일정
-2020년 3월 16일(월) ~ 2020년 4월 말
-
-	* 1주차: 대회에 대한 이해, 탐색적 데이터 분석
-		* 진행: 스터디 팀장님 (2명 - 대회에 대한 이해 1명, 탐색적 데이터 분석 1명)
-		* 숙제: (스터디원 수준에 따라) BaseLine code Beginner or Itermediate clone coding
-	* 2주차: Feature Engineering, 분석모델 모델링 #1
-		* 진행: 스터디 구성 팀원 (3명 - Feature Engineering 1명, 분석모델 2명[선형 1, 트리 1])
-		* 숙제: (스터디원 수준에 따라) BaseLine code Itermediate or 3rd_winner code
-	* 3주차: 분석모델 모델링 #2
-		* 진행: 스터디 구성 팀원 (3명 - Bagging과 Boosting & AdaBoost 1명, XgBoost 1명, LightGBM 1명)
-		* 숙제: 2nd_winner
-	* 4주차: 심화
-		* 진행: 스터디 팀장님  (2명 - 상관관계 & 이상치 처리 심화 - 1명, 차원 축소 & high cat variable 처리 1명)
-		* 숙제: 1st_winner
+# 데이콘 서포터즈 1기 커리큘럼
 
 ## :bus: 참여 대회명
 제주 퇴근시간 버스승차인원 예측
-	https://dacon.io/competitions/official/229255/overview/
+
+https://dacon.io/competitions/official/229255/overview/
+
+## :calendar: 진행일정
+2020년 3월 16일(월) ~ 2020년 4월 말 
+
+* 1주차: 대회에 대한 이해, 탐색적 데이터 분석
+  * 진행: 스터디 팀장님 (2명 - 대회에 대한 이해 1명, 탐색적 데이터 분석 1명)
+  * 숙제: (스터디원 수준에 따라) BaseLine code Beginner or Itermediate clone coding
+* 2주차: Feature Engineering, 분석모델 모델링 #1
+  * 진행: 스터디 구성 팀원 (3명 - Feature Engineering 1명, 분석모델 2명[선형 1, 트리 1])
+  * 숙제: (스터디원 수준에 따라) BaseLine code Itermediate or 3rd_winner code
+* 3주차: 분석모델 모델링 #2
+  * 진행: 스터디 구성 팀원 (3명 - Bagging과 Boosting & AdaBoost 1명, XgBoost 1명, LightGBM 1명)
+  * 숙제: 2nd_winner
+* 4주차: 심화
+  * 진행: 스터디 팀장님  (2명 - 상관관계 & 이상치 처리 심화 - 1명, 차원 축소 & high cat variable 처리 1명)
+  * 숙제: 1st_winner
 	
 ## :books: 커리큘럼
 
@@ -45,7 +46,7 @@
 	3. 데이터 시각화
 		* matplotlib.pyplot
 		* seaborn
-		* **3. plotly**
+		* **plotly**
 
  - EDA를 활용한 퇴근시간 승차인원 데이터 셋 분석
  
@@ -83,10 +84,10 @@
 	: 스터디 진행 상황에 따라서 1,2,3등 코드 중 선정 및 클론코딩 진행
 	
 ### 6. 고도화
-	- Interpretable Machine Learning(lime)
-		: 머신러닝/딥러닝 모델의 신뢰도에 대한 해석
-		(http://research.sualab.com/introduction/2019/08/30/interpretable-machine-learning-overview-1.html)
-	- Bayesian optimization
-		: Model의 Hyperparameter를 튜닝하는데 사용
-	- SHAP
-		: 결과를 예측하는데 있어 Column의 영향도를 Insight
+- Interpretable Machine Learning(lime)
+  : 머신러닝/딥러닝 모델의 신뢰도에 대한 해석
+  (http://research.sualab.com/introduction/2019/08/30/interpretable-machine-learning-overview-1.html)
+- Bayesian optimization
+  : Model의 Hyperparameter를 튜닝하는데 사용
+- SHAP
+  : 결과를 예측하는데 있어 Column의 영향도를 Insight
