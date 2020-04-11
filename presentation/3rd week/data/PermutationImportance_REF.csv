@@ -1,0 +1,43 @@
+,n_feats,model,feats,score
+0,66,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['6~7_ride', '9~10_ride', '11~12_ride', '6~7_takeoff', '9~10_takeoff', '11~12_takeoff', 'day', 'Mon', 'Sat', 'Thr', 'Tue', 'is_holiday', 'in_out_8~9_takeoff_mean', 'dis_jeju', 'dis_seongsan', 'dis_po', 'gosan', 'po', '7~8_ride_date_sum', '6~8r', '8~10r', '10~12r', '8~10t', '10~12t', 'bus_route_id_mean', 'station_code_mean', 'station_code_sum', 'route_station_code_mean', 'congestion', '6~7_ride_sum', '7~8_ride_sum', '8~9_ride_sum', '9~10_ride_sum', '10~11_ride_sum', '11~12_ride_sum', '6~7_takeoff_sum', '7~8_takeoff_sum', '8~9_takeoff_sum', '9~10_takeoff_sum', '10~11_takeoff_sum', '11~12_takeoff_sum', 'user_cat_sum_2', 'user_cat_sum_4', 'user_cat_sum_30', 'user_cat_ratio_2', 'user_cat_ratio_4', 'user_cat_ratio_6', 'user_cat_ratio_27', 'user_cat_ratio_28', 'user_cat_ratio_29', 'user_cat_ratio_30', '현재기온_10', '일강수_10', 'is_rain', '구름많음', '구름조금', '맑음', '박무', '보통비계속', '비 끝남', '소나기 끝', '약한비계속', '약한비단속', 'encoded_bus_route_id_frequency_encoded', 'encoded_station_code_frequency_encoded', 'encoded_route_station_code_frequency_encoded']",2.625216405755802
+1,59,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_mean', 'station_code_sum', 'dis_seongsan', 'Mon', '9~10_takeoff', 'bus_route_id_mean', '현재기온_10', '6~7_takeoff_sum', '7~8_ride_sum', 'congestion', 'user_cat_sum_30', '8~9_takeoff_sum', '10~11_ride_sum', '6~7_ride', '6~8r', '8~10r', '일강수_10', '11~12_ride', '8~10t', 'dis_po', 'user_cat_ratio_30', '10~12t', '11~12_takeoff', 'day', '11~12_ride_sum', 'user_cat_ratio_4', '7~8_takeoff_sum', '6~7_takeoff', '9~10_ride_sum', 'encoded_route_station_code_frequency_encoded', 'po', 'encoded_bus_route_id_frequency_encoded', '약한비단속', '약한비계속', '소나기 끝', '비 끝남', '보통비계속', 'Sat', 'Thr', 'Tue', 'is_holiday', 'in_out_8~9_takeoff_mean', '박무', '맑음', '9~10_takeoff_sum', 'gosan', '11~12_takeoff_sum', '구름많음', 'is_rain', 'user_cat_ratio_29', 'user_cat_ratio_28', 'user_cat_ratio_27', 'user_cat_ratio_6', '10~11_takeoff_sum', 'user_cat_sum_4', '8~9_ride_sum']",2.625960173335299
+2,53,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_sum', 'station_code_mean', 'Mon', '9~10_takeoff', '6~7_takeoff_sum', 'bus_route_id_mean', '현재기온_10', '7~8_ride_sum', '6~7_ride', 'congestion', '8~10r', '8~9_takeoff_sum', 'dis_seongsan', '일강수_10', 'user_cat_sum_30', '11~12_ride', '8~10t', '10~11_ride_sum', '11~12_ride_sum', 'dis_po', '10~12t', 'user_cat_ratio_30', '10~11_takeoff_sum', '11~12_takeoff', 'user_cat_ratio_4', '6~8r', 'day', '7~8_takeoff_sum', '6~7_takeoff', 'user_cat_ratio_27', 'encoded_route_station_code_frequency_encoded', 'user_cat_sum_4', 'user_cat_ratio_6', 'user_cat_ratio_28', 'user_cat_ratio_29', 'is_rain', '구름많음', 'gosan', '9~10_takeoff_sum', '맑음', '박무', 'in_out_8~9_takeoff_mean', 'is_holiday', 'Tue', 'Thr', 'Sat', '보통비계속', '비 끝남', '소나기 끝', '약한비계속']",2.625444443153142
+3,47,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_sum', 'station_code_mean', 'Mon', '9~10_takeoff', '6~7_takeoff_sum', 'bus_route_id_mean', '현재기온_10', 'congestion', '7~8_ride_sum', '8~10r', '6~7_ride', '8~9_takeoff_sum', 'dis_seongsan', '11~12_ride', '일강수_10', 'user_cat_sum_30', '8~10t', '10~11_ride_sum', '11~12_ride_sum', 'dis_po', '10~12t', '11~12_takeoff', 'day', '10~11_takeoff_sum', 'user_cat_ratio_30', 'user_cat_ratio_4', '6~8r', '7~8_takeoff_sum', '6~7_takeoff', 'user_cat_ratio_27', 'encoded_route_station_code_frequency_encoded', '맑음', '비 끝남', '보통비계속', 'Sat', 'Thr', 'Tue', 'is_holiday', 'in_out_8~9_takeoff_mean', '박무', 'is_rain', '9~10_takeoff_sum', 'gosan', '구름많음']",2.625444443153142
+4,42,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_sum', 'station_code_mean', 'Mon', '9~10_takeoff', '6~7_takeoff_sum', 'bus_route_id_mean', '현재기온_10', 'congestion', '7~8_ride_sum', '8~10r', '6~7_ride', 'dis_seongsan', '8~9_takeoff_sum', '11~12_ride', '일강수_10', '8~10t', 'user_cat_sum_30', '10~11_ride_sum', '11~12_ride_sum', 'dis_po', '10~12t', 'user_cat_ratio_30', '11~12_takeoff', 'day', '10~11_takeoff_sum', '6~8r', 'user_cat_ratio_4', 'user_cat_ratio_27', '6~7_takeoff', '7~8_takeoff_sum', 'encoded_route_station_code_frequency_encoded', 'gosan', 'is_holiday', '9~10_takeoff_sum', 'is_rain', '박무', 'in_out_8~9_takeoff_mean', '맑음', 'Tue']",2.625444443153142
+5,37,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_sum', 'station_code_mean', 'Mon', '9~10_takeoff', '6~7_takeoff_sum', 'bus_route_id_mean', '현재기온_10', '7~8_ride_sum', 'congestion', '6~7_ride', '8~10r', 'dis_seongsan', '8~9_takeoff_sum', '11~12_ride', 'user_cat_sum_30', '8~10t', '일강수_10', '10~11_ride_sum', '11~12_ride_sum', 'dis_po', '10~12t', '11~12_takeoff', 'day', 'user_cat_ratio_30', '10~11_takeoff_sum', 'user_cat_ratio_4', '6~8r', 'user_cat_ratio_27', '6~7_takeoff', '7~8_takeoff_sum', 'encoded_route_station_code_frequency_encoded', 'is_rain', 'in_out_8~9_takeoff_mean', '박무']",2.625444443153142
+6,33,"LGBMRegressor(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+              importance_type='split', learning_rate=0.001, max_depth=-1,
+              min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+              n_estimators=1000, n_jobs=-1, num_leaves=31, objective=None,
+              random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+              subsample=1.0, subsample_for_bin=200000, subsample_freq=0)","['route_station_code_mean', '7~8_ride_date_sum', '10~12r', 'station_code_sum', 'station_code_mean', 'Mon', '9~10_takeoff', '6~7_takeoff_sum', 'bus_route_id_mean', '현재기온_10', 'congestion', '7~8_ride_sum', '6~7_ride', '8~10r', 'dis_seongsan', '8~9_takeoff_sum', '11~12_ride', 'user_cat_sum_30', '일강수_10', '8~10t', '10~11_ride_sum', '11~12_ride_sum', 'dis_po', '10~12t', '11~12_takeoff', 'day', '10~11_takeoff_sum', 'user_cat_ratio_30', '6~8r', 'user_cat_ratio_4', '7~8_takeoff_sum', '6~7_takeoff', 'encoded_route_station_code_frequency_encoded']",2.6256556553929413
